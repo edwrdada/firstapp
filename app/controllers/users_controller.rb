@@ -27,4 +27,8 @@ class UsersController < ApplicationController
   def login
   
   end
+
+  def delete
+
+  end
 end
