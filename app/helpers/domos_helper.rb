@@ -1,0 +1,2 @@
+module DomosHelper
+end

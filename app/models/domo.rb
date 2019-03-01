@@ -1,0 +1,2 @@
+class Domo < ApplicationRecord
+end
