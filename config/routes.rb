@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "show"
   get "edit"
   get "new"
+  get "login"
   post "create"
   patch "update"
   root "index"
