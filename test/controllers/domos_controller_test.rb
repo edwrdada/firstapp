@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class DomosControllerTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
+    test "get new" do
+      get '/domo/new'
+      assert_response :success
+    end
 end
