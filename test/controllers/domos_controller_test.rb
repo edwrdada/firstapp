@@ -2,7 +2,9 @@ require 'test_helper'
 
 class DomosControllerTest < ActionDispatch::IntegrationTest
     test "get new" do
-      get '/domo/new'
+      get new_domo_path
       assert_response :success
     end
+
+    
 end
