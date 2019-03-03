@@ -23,6 +23,7 @@ class DomosController < ApplicationController
       render :show
     else
       render :new
+    end
   end
 
   def login
